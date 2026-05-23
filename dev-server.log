@@ -1,0 +1,73 @@
+
+> kira-mun@1.0.0 dev E:\personal-projects\kira-landing
+> vite
+
+[36m
+  vite v2.9.18[39m[32m dev server running at:
+[39m
+  > Network:  [36mhttp://10.100.2.233:[1m5173[22m/[39m
+  > Local:    [36mhttp://localhost:[1m5173[22m/[39m
+
+  [36mready in 1046ms.[39m
+
+[2m1:30:40 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m1:32:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Dither.jsx[22m
+[2m1:32:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Dither.jsx[22m
+[2m1:35:35 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m1:35:39 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m1:35:45 pm[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2m1:35:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m1:35:57 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m1:36:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m1:36:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/About.jsx[22m
+[2m1:36:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/About.jsx[22m
+[2m1:36:21 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/About.jsx[22m
+[2m1:36:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/About.jsx[22m
+[2m1:36:48 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m1:36:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m1:36:56 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m1:37:02 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Schedule.jsx[22m
+[2m1:37:09 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Schedule.jsx[22m
+[2m1:37:14 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Schedule.jsx[22m
+[2m1:37:18 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Schedule.jsx[22m
+[2m1:37:26 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Team.jsx[22m
+[2m1:37:30 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Team.jsx[22m
+[2m1:37:35 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Contact.jsx[22m
+[2m1:37:42 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Contact.jsx[22m
+[2m1:37:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Contact.jsx[22m
+[2m1:37:52 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx[22m
+[2m1:37:59 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx[22m
+[2m1:38:04 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx[22m
+[2m1:38:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:38:22 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:40:46 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:43:29 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m1:43:41 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m2:02:57 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m2:03:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m2:03:07 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m2:03:11 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx[22m
+[2m2:03:17 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Team.jsx[22m
+[2m2:03:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m2:21:01 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m2:21:13 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m2:21:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Footer.jsx[22m
+[2m2:28:19 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m2:31:00 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m2:31:01 pm[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mgsap[32m[39m
+[2m2:31:01 pm[22m [36m[1m[vite][22m[39m [32m✨ optimized dependencies changed. reloading[39m
+[2m2:42:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Loader.jsx[22m
+[2m2:42:23 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Loader.css[22m
+[2m2:43:06 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m2:43:12 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m2:43:34 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m2:43:35 pm[22m [36m[1m[vite][22m[39m [32m✨ new dependencies optimized: [33mgsap/ScrollTrigger[32m[39m
+[2m2:43:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m2:43:50 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/sections/Committees.jsx[22m
+[2m2:44:15 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m2:44:27 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m3:31:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m3:31:08 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m3:41:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CustomCursor.jsx[22m
+[2m3:41:44 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/CustomCursor.css[22m
+[2m3:42:03 pm[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m

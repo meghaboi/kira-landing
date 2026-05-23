@@ -1,0 +1,193 @@
+.loader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #060304;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  will-change: transform;
+}
+
+.loader__dither {
+  position: absolute;
+  inset: 0;
+  opacity: 0.72;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+/* darken edges so the KIRA text stays legible over the dither */
+.loader::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(6, 3, 4, 0) 28%,
+    rgba(6, 3, 4, 0.6) 70%,
+    rgba(6, 3, 4, 0.95) 100%
+  );
+  pointer-events: none;
+}
+
+/* scanlines */
+.loader__scan {
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(0, 0, 0, 0.18) 3px,
+    rgba(0, 0, 0, 0.18) 4px
+  );
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 2;
+}
+.loader__grain {
+  position: absolute;
+  inset: -50%;
+  background: radial-gradient(circle at 30% 40%, rgba(255, 43, 50, 0.08), transparent 40%),
+    radial-gradient(circle at 70% 60%, rgba(255, 43, 50, 0.06), transparent 45%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.loader__content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  padding: 0 1.5rem;
+  will-change: transform, opacity;
+}
+
+.loader__eyebrow {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.5em;
+  color: var(--red-bright);
+  margin-bottom: 1.4rem;
+  text-shadow: 0 0 16px rgba(255, 43, 50, 0.6);
+}
+
+.loader__title {
+  display: flex;
+  justify-content: center;
+  gap: 0.04em;
+  line-height: 0.9;
+  will-change: transform;
+}
+.loader__ltr {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0 0.02em;
+}
+.loader__ltr-inner {
+  display: inline-block;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(4.5rem, 24vw, 18rem);
+  letter-spacing: 0.02em;
+  color: #fff;
+  text-shadow: 0 0 50px rgba(255, 43, 50, 0.55), 0 0 110px rgba(200, 22, 29, 0.4);
+  will-change: transform, opacity, filter;
+}
+
+.loader__sub {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.34em;
+  color: var(--muted);
+  margin-top: 1.2rem;
+}
+
+.loader__progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  width: min(360px, 80vw);
+  margin: 2.6rem auto 0;
+}
+.loader__progress-label {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.28em;
+  color: var(--faint);
+  white-space: nowrap;
+}
+.loader__bar {
+  flex: 1;
+  height: 1px;
+  background: rgba(200, 22, 29, 0.22);
+  overflow: hidden;
+}
+.loader__bar-fill {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, var(--red), var(--red-bright));
+  box-shadow: 0 0 12px rgba(255, 43, 50, 0.8);
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.loader__count {
+  font-family: var(--mono);
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  color: var(--red-bright);
+  text-shadow: 0 0 16px rgba(255, 43, 50, 0.5);
+  min-width: 2.4ch;
+  text-align: right;
+}
+.loader__count::after {
+  content: '%';
+  opacity: 0.6;
+  margin-left: 1px;
+}
+
+.loader__corner {
+  position: absolute;
+  z-index: 3;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  color: var(--faint);
+}
+.loader__corner--tl {
+  top: 1.8rem;
+  left: 2.2rem;
+  font-size: 1.2rem;
+  color: var(--red);
+}
+.loader__corner--tr {
+  top: 1.8rem;
+  right: 2.2rem;
+}
+.loader__corner--bl {
+  bottom: 1.8rem;
+  left: 2.2rem;
+}
+
+@media (max-width: 600px) {
+  .loader__count {
+    right: 1.4rem;
+    bottom: 1.4rem;
+  }
+  .loader__corner--tl {
+    top: 1.4rem;
+    left: 1.4rem;
+  }
+  .loader__corner--tr {
+    top: 1.4rem;
+    right: 1.4rem;
+  }
+  .loader__corner--bl {
+    bottom: 1.4rem;
+    left: 1.4rem;
+  }
+}
