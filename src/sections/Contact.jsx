@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Cubes from '../components/Cubes.jsx';
 
 export default function Contact() {
   const [sent, setSent] = useState(false);
@@ -11,19 +10,6 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section contact">
-      <div className="contact__bg" aria-hidden="true">
-        <Cubes
-          gridSize={12}
-          maxAngle={55}
-          radius={3}
-          borderStyle="1px solid rgba(255, 43, 50, 0.4)"
-          faceColor="#120709"
-          rippleColor="#ff2b32"
-          rippleSpeed={1.6}
-          autoAnimate={true}
-          rippleOnClick={true}
-        />
-      </div>
       <div className="contact__inner">
         <div className="contact__left">
           <span className="section__kicker">REGISTER</span>

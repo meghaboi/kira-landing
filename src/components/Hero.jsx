@@ -1,4 +1,5 @@
 import { Suspense, lazy } from 'react';
+import Countdown from './Countdown.jsx';
 
 const Dither = lazy(() => import('./Dither.jsx'));
 
@@ -26,6 +27,12 @@ export default function Hero() {
       <div className="hero__kanji hero__kanji--left">EST · 2025</div>
       <div className="hero__kanji hero__kanji--right">CHAPTER · II</div>
 
+      <pre className="hero__ascii" aria-hidden="true">
+{`     ___|￨___       模擬国連
+    /  ⛩  \\      KIRA · 桐
+   ‾‾|￨‾‾‾|￨‾‾    赤い空の下`}
+      </pre>
+
       <div className="hero__content">
         <p className="hero__eyebrow">HYDERABAD&apos;S LARGEST PRIVATE MUN</p>
         <h1 className="hero__title">
@@ -37,7 +44,7 @@ export default function Hero() {
           <span className="hero__rule-mark">⛩</span>
           <span></span>
         </div>
-        <p className="hero__dates">JULY 12 · 13 · 14 — 2026</p>
+        <Countdown />
         <div className="hero__actions">
           <a href="#contact" className="btn btn--register">
             REGISTER NOW
